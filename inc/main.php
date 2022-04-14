@@ -81,7 +81,6 @@ class Train {
    * @return void
    */
   private function dedup($rows) {
-
     $serialized = array_map('serialize', $rows);
     $unique = array_unique($serialized);
 
