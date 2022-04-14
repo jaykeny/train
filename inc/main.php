@@ -7,7 +7,6 @@ class Train {
   public $file;
   public $csv; // CSV Data
   public $rows = []; // CSV Array
-  private static $instance = null;
 
   public function __construct($file)
   {
